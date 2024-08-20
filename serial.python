@@ -1,0 +1,18 @@
+import serial
+import keyboard
+import time
+
+ser = serial.Serial(port = "COM1", baudrate = 9600, bytesize = 8 , timeout = 2, stopbits = serial.STOPBITS_ONE)
+
+while true : 
+    ser.write("A".encode("ASCII"))
+    receive = ser.read()
+    print(receive.decode('ASCII'))
+    time.sleep(1)
+    if (keyboard.is_pressed('q')):
+        print("your mom ")
+    break
+
+
+ser.close()
+

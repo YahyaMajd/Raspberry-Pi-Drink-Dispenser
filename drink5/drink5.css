@@ -1,0 +1,127 @@
+/* 
+Group number: G4
+Student Names: Yahya Abouelmagd, Felix Ma, Rudy Ma, Amir Farah
+*/
+* {
+  margin: 0;  /*overall margins*/
+  padding: 0; /*overall padding*/
+  box-sizing: border-box; /*overall sizing*/
+  font-size: 100%;  /*overall font size*/
+  line-height: 1.3; /*line height (default)*/
+  color: #D4AF37;
+  font-style: italic;
+}
+
+/* background for the whole page */
+body {
+  background-image: url('https://pbs.twimg.com/media/DMUmEpaVwAIBF7d?format=jpg&name=large');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+/* styling for the header container */
+header {
+
+display: flex; /*set display to flex*/
+flex-direction: row;   /*horizontal positioning*/
+width: 100%;    /*header covers whole width of page*/
+align-content: space-between;  /*flex blocks are at each edge*/
+}
+
+/* stying for the main title */
+.headerRight div h1{
+color : #D4AF37;  /*font color*/
+font-size: 50px;  /*font sized is 50 px*/
+display: flex;  /*flex display*/
+text-align: right; /*text aligned right*/
+font-style: italic;
+
+}
+
+/* styling for the header image container */
+.headerLeft {
+background-color: black;  /*set background color for header*/
+height: 120px;/* height is 120 px*/
+width: 100%;/*width covers whole page*/
+display: flex;/*display flex*/
+
+}
+
+
+/* styling for the header menu and title container */
+.headerRight {
+background-color:  black;/*set background color for header*/
+height: 120px;/*height is 120 px*/
+width: 100%;/*width covers whole page*/
+display: flex;/*display flex*/
+flex-direction: column;/*arranged vertically*/
+align-content: stretch;/*flex alignment*/
+}
+
+
+/* styling for the header menu */
+ul {
+list-style-type: none; /*no list style*/
+margin: 0;/*no margins*/
+padding: 0;/*no padding*/
+overflow: hidden; /*no overflow*/
+background-color: black; /*menu button color*/
+
+}
+li {
+float: right;  /*align list elements to the right*/
+}
+li a {
+display: block;  /*display block*/
+color: #D4AF37; /*text color*/
+text-align: center; /*text aligned center*/
+padding: 16px; /*16px padding*/
+text-decoration: none;  /*no text decoration*/
+border-style: groove;  /*list element border styling*/
+border-right-style: hidden;  /*right styling hidden*/
+border-color: black;  /*border color*/
+font-style: italic;
+}
+li a:hover {
+background-color: #5d0404;  /*color when hovered over*/
+}
+
+/* margins for the body of the page */
+main {
+margin: 5px;  /*margins for main body*/
+background-color: transparent;
+}
+
+/* styling for the first section of text */
+
+
+/* section 1 main header */
+#DRINK5 {
+font-size: 40px;  /*font sizing*/
+padding: 5px;  /*padding*/
+display: flex;  /*display is flex*/
+flex-direction: column;  /*aligned vertical*/
+color : #D4AF37; /* text color */
+}
+
+/* section 1 text*/
+.sectOne div p{
+padding: 5px;  /*padding*/
+text-align: left;  /*text aligned left*/
+display: flex;   /*display is flex*/
+flex-direction: column;   /*aligned vertical*/
+color : gold;
+border-style: groove;  /*border of div style*/
+border-color: rgb(222,163,62);  /*border color*/
+border-width: 3px; /*border width*/
+}
+
+#Dispense5{
+  height : 30px;
+  color: gold;  /*text acolor*/
+  background-color : black;
+  border-bottom: black;
+}

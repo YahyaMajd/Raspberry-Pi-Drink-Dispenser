@@ -1,0 +1,198 @@
+/* 
+Group number: G4
+Student Names: Yahya Abouelmagd, Felix Ma, Rudy Ma, Amir Farah
+*/
+* {
+  margin: 0;  /*overall margins*/
+  padding: 0; /*overall padding*/
+  box-sizing: border-box; /*overall sizing*/
+  font-size: 100%;  /*overall font size*/
+  line-height: 1.3; /*line height (default)*/
+  color: #D4AF37 
+}
+
+/* background for the whole page */
+
+body {
+  background-image: url('https://www.celli.com/public/Magazzino/Categorie/Immagini/202_S_altrecategorie1.jpg');
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+/* styling for the header container */
+header {
+display: flex; /*set display to flex*/
+flex-direction: row;   /*horizontal positioning*/
+width: 100%;    /*header covers whole width of page*/
+height: max-content;
+font-style: times;
+align-content: space-between;  /*flex blocks are at each edge*/
+}
+
+/* stying for the main title */
+.headerRight div h1{
+font-style: italic;
+color : #D4AF37;  /*font color*/
+font-size: 50px;  /*font sized is 50 px*/
+display: flex;  /*flex display*/
+text-align: right; /*text aligned right*/
+
+}
+
+/* styling for the header image container */
+.headerLeft {
+background-color: black;  /*set background color for header*/
+height: 120px;/* height is 120 px*/
+width: 100%;/*width covers whole page*/
+font-style: serif;
+display: flex;/*display flex*/
+
+}
+
+
+/* styling for the header menu and title container */
+.headerRight {  
+background-color:  black;/*set background color for header*/
+height: 120px;/*height is 120 px*/
+width: 100%;/*width covers whole page*/
+display: flex;/*display flex*/
+flex-direction: column;/*arranged vertically*/
+font-style: serif;
+align-content: stretch;/*flex alignment*/
+}
+
+/* header logo dimensions */
+.headerLeft img{
+width: 150px;  /*image width*/
+height: 100px;/*image height*/
+}
+li {
+float: right;  /*align list elements to the right*/
+}
+li a {
+display: block;  /*display block*/
+color: #D4AF37; /*text color*/
+text-align: center; /*text aligned center*/
+padding: 16px; /*16px padding*/
+text-decoration: none;  /*no text decoration*/
+border-style: groove;  /*list element border styling*/
+border-right-style: hidden;  /*right styling hidden*/
+font-style: times;
+border-color: black;  /*border color*/
+}
+li a:hover {
+background-color: #5d0404;  /*color when hovered over*/
+}
+
+/* margins for the body of the page */
+main {
+margin: 5px;  /*margins for main body*/
+}
+
+/* styling for the first section of text */
+.sectOne {
+
+border-style: groove;  /*border of div style*/
+border-color: rgb(222,163,62);  /*border color*/
+border-width: 3px; /*border width*/
+display: flex; /*display is flex*/
+flex-direction: row; /*horizontal aligned*/
+}
+
+/* section 1 main header */
+.sectOne div h1 {
+font-style: italic; 
+font-size: 40px;  /*font sizing*/
+padding: 5px;  /*padding*/
+display: flex;  /*display is flex*/
+flex-direction: column;  /*aligned vertical*/
+color : #D4AF37; /* text color */
+}
+
+/* section 1 secondary header */
+.sectOne div h2{
+font-style: italic;  
+padding: 5px;  /*padding*/
+color : #D4AF37;  /*text color*/
+display: flex;  /*display is flex*/
+flex-direction: column;  /*aligned vertical */
+}
+
+/* section 1 text*/
+.sectOne div p{
+font-style: italic;  
+padding: 5px;  /*padding*/
+text-align: left;  /*text aligned left*/
+display: flex;   /*display is flex*/
+flex-direction: column;   /*aligned vertical*/
+color : gold;
+}
+
+/* section 1 image */
+.sectOne div img{
+width: 450px;  /*image width*/
+height: 300px; /*image height*/
+object-fit: contain;  /*object tries to fit div*/
+padding: 10px;  /*padding*/
+margin: 5px;  /*margins*/
+display: flex;  /*display is flex*/
+flex-direction: row; /*aligned horizontal*/
+}
+
+/* section 1 button link */
+.sectOne div .btn {
+font-style: italic;  
+border: none;   /*no borders*/
+background-color: black;  /*background color*/
+color:gold;   /*text color*/
+padding: 14px 28px;  /*padding dimensions*/
+margin-left: 10px;  /*left margins*/
+margin: 5px;   /*rest margins*/
+font-size: 16px;  /*font size*/
+cursor: pointer;  /*mouse to be displayed when hovered*/
+display: flex;  /*display is flex*/
+flex-direction: column;  /*aligned horizontal*/
+}
+.sectOne div .btn:hover {
+background-color: #04330a;   /*hover color*/
+}
+.sectOne div button a{
+font-style: italic;  
+color: gold;  /*text color*/
+
+}
+
+/* section 2 header */
+.sectTwo h1 {
+font-style: italic;  
+font-size: 20px;   /*font size*/
+padding: 5px;   /*font size*/
+}
+
+/* section 2 text */
+.sectTwo p{
+padding: 5px;   /*padding*/
+text-align: left;   /*text aligned left*/
+font-style: italic;
+}
+/* footer */
+footer {
+font-style: italic;    
+padding: 5px; /*padding*/
+width: 100%;  /*width covers whole page*/
+background-color: grey;  /*background color*/
+color: gold;  /*text color*/
+}
+
+/* used to formate the images */
+.row {
+display: flex;  /*display is flex*/
+}
+.column {
+flex: 20%;  /*fit 50% of page*/
+padding: 5px;  /*padding*/
+}
